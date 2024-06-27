@@ -5,19 +5,24 @@
 
 ## Install
 
-Clone this repo:
 
 ```bash
-git clone https://github.com/GeorgyDev11111/avi-to-mkv-converter.git
-cd avi-to-mkv-converter
-pip install -r requirements.txt
+$ git clone https://github.com/GeorgyDev11111/avi-to-mkv-converter.git
+$ cd avi-to-mkv-converter
+$ sudo ./install.sh
+```
+
+## Uninstall
+
+```bash
+$ sudo ./uninstall.sh
 ```
 
 
 ## Install ffmpeg
 
-You need install ffmpeg on your PC
-https://ffmpeg.org/
+You need install [ffmpeg](https://ffmpeg.org/) on your PC
+
 
 
 ## Usage
@@ -25,14 +30,14 @@ https://ffmpeg.org/
 1. Run the program:
 
 ```bash
-python converter.py
+$ avi-to-mkv-converter.py
 ```
 
 2. Enter the path to the source folder containing AVI video files and the path to the destination folder where the converted MKV files will be saved:
 
 ``` bash
-Source folder: path/to/your/input_directory
-Target folder: path/to/your/output_directory
+Source folder: name_path_src
+Target folder: name_path_target
 ```
 
 The program will process all the video files in the specified source folder and save them in the new destination folder.
