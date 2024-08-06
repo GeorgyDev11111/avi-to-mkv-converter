@@ -7,7 +7,7 @@
 
 
 ```bash
-$ git clone https://github.com/GeorgyDev11111/avi-to-mkv-converter.git
+$ git clone https://github.com/anufriev-dev/avi-to-mkv-converter.git
 $ cd avi-to-mkv-converter
 $ sudo ./install.sh
 ```
